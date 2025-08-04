@@ -1,3 +1,4 @@
+import NigeriaMap from '../components/NigeriaMap';
 "use client";
 import React, { useState } from 'react';
 import { 
@@ -262,6 +263,14 @@ const DemocraVoteDashboard = () => {
           <div className="p-6 border-b border-gray-200">
             <h3 className="text-lg font-semibold text-gray-900">Verification Methods</h3>
           </div>
+          <div className="bg-white rounded-lg shadow-sm border border-gray-200">
+  <div className="p-6 border-b border-gray-200">
+    <h3 className="text-lg font-semibold text-gray-900">📍 Live Voter Map</h3>
+  </div>
+  <div className="p-6">
+    <NigeriaMap />
+  </div>
+</div>
           <div className="p-6">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
